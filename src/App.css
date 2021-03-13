@@ -1,38 +1,149 @@
-.App {
+body {
   text-align: center;
+  background: oldlace;
+  /* background: whitesmoke; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  color: black;
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a h2 {
+  width: 200px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h1 {
+  margin: 0;
+}
+
+h2 {
+  color: gray;
+  width: inherit;
+  margin: 0 auto;
+}
+
+.container {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  max-width: 1000px;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+.panel {
+  border: 1px solid lightgray;
+  margin: 3px;
+  display: flex;
+  justify-content: center;
+}
+
+.gray {
+  background: lightgray;
+}
+
+.black:hover {
+  background: black;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+button {
+  background: white;
+  border: 1px solid gray;
+  border-radius: 2px;
+  font-size: 1.5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:hover {
+  cursor: pointer;
+  background: lightgray;
+  color: white;
+}
+
+.stories h2 {
+  margin: 0 auto;
+  color: black;
+}
+
+.stories h3 {
+  margin: 0;
+  color: gray;
+}
+
+.stories span {
+  color: magenta;
+}
+
+a h2:hover {
+  color: magenta;
+}
+
+.month {
+  padding: 10px;
+  margin: 0 auto 10px auto;
+  border: 1px solid gray;
+  background: white;
+  color: black;
+  border-radius: 7px;
+  width: 500px;
+}
+
+.books h4 {
+  color: gray;
+  font-style: italic;
+}
+
+h4 span {
+  color: magenta;
+  font-style: normal;
+}
+
+em {
+  color: gray;
+}
+
+.stories h3 {
+  text-align: left;
+  margin-left: 70px;
+}
+
+.whole {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.half {
+  display: flex;
+  justify-content: center;
+  padding: 10px 45px;
+}
+
+.none {
+  margin: 0;
+}
+
+.tab {
+  margin: 0 auto;
+  margin-top: 10vh;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  margin: 5vh auto;
+}
+
+header span {
+  color: black;
+}
+
+nav {
+  display: flex;
+  width: 1000px;
+  justify-content: space-between;
+  align-items: center;
 }
