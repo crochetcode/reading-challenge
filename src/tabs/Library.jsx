@@ -32,7 +32,7 @@ const books = [
     },
     {
         category: 'A book recommended by a Book Chat librarian...',
-        title: 'The Coldest Girl in Cold Town'
+        cover: 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1367312709l/17406279.jpg'
     },
     {
         category: 'A nonfiction book inspired by a significant historical event',
@@ -40,7 +40,7 @@ const books = [
     },
     {
         category: 'A travelouge or road trip book',
-        name: 'Nomadland*'
+        name: 'Nomadland'
     },
     {
         category: 'A book you enjoyed in school or college',
@@ -59,7 +59,7 @@ export const Library = () => {
     return (
         <div className='container tab'>
             <LibraryStyle>
-                <h1>DMPL Reading Challenge</h1>
+                <h1>Reading Challenge</h1>
                 <h2>{booksRead} of 12 ({percentage}%)</h2>
                 <div className='container books'>
                     {books.map(book => {
