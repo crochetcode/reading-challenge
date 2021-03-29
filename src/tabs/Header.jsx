@@ -2,12 +2,12 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 
 export const Header = () => {
-    const days = 31 + 28 + 15;
+    const days = 31 + 28 + 29;
     const yearPercentage = (days / 365 * 100).toFixed(2);
     return (
         <header>
             <nav>
-                <h2><span>March 15th, 2021</span></h2>
+                <h2><span>March 29th, 2021</span></h2>
                 <h2>{`${days} days (${yearPercentage}%)`}</h2>
                 <Link to='/'>
                     <h2>Reading</h2>

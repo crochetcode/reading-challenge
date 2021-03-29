@@ -31,7 +31,7 @@ const books = [
         cover: 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1582478051l/51608211._SY475_.jpg'
     },
     {
-        category: 'A book recommended by a Book Chat librarian...',
+        category: 'A book recommended by a Book Chat librarian',
         cover: 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1367312709l/17406279.jpg'
     },
     {
@@ -43,13 +43,13 @@ const books = [
         name: 'Nomadland'
     },
     {
-        category: 'A book you enjoyed in school or college',
-        name: 'Calling B for Butterfly'
-    },
-    {
         category: 'A book of short stories or essays',
         name: 'Axiomatic'
     },
+    {
+        category: 'A book you enjoyed in school or college',
+        name: 'Calling B for Butterfly'
+    }
 ]
 
 const booksRead = books.filter(book => book.cover).length;
