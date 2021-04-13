@@ -36,7 +36,7 @@ const books = [
     },
     {
         category: 'A nonfiction book inspired by a significant historical event',
-        name: 'The Big Short'
+        cover: 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327859562l/8213519.jpg'
     },
     {
         category: 'A travelouge or road trip book',
