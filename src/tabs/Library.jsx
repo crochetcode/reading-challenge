@@ -40,7 +40,7 @@ const books = [
     },
     {
         category: 'A travelouge or road trip book',
-        name: 'Nomadland'
+        title: 'Nomadland'
     },
     {
         category: 'A book of short stories or essays',
