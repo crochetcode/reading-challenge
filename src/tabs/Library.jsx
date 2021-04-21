@@ -40,7 +40,7 @@ const books = [
     },
     {
         category: 'A travelouge or road trip book',
-        title: 'Nomadland'
+        cover: 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1503260997l/36078223._SY475_.jpg'
     },
     {
         category: 'A book of short stories or essays',
