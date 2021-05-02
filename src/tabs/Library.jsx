@@ -44,11 +44,11 @@ const books = [
     },
     {
         category: 'A book of short stories or essays',
-        name: 'Axiomatic'
+        cover: 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1385107844l/18883653.jpg'
     },
     {
         category: 'A book you enjoyed in school or college',
-        name: 'Calling B for Butterfly'
+        title: 'Calling B for Butterfly'
     }
 ]
 

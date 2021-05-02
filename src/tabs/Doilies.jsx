@@ -1,7 +1,7 @@
 import React from 'react';
 import { DoiliesStyle } from '../styling/doilies';
 
-const complete = 23;
+const complete = 25;
 const percentage = ((complete / 101) * 100).toFixed(1);
 
 const mapEmptyBoxes = (number, filled) => {
