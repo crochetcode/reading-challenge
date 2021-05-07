@@ -48,7 +48,7 @@ const books = [
     },
     {
         category: 'A book you enjoyed in school or college',
-        title: 'Calling B for Butterfly'
+        cover: 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1315440018l/1850318.jpg'
     }
 ]
 
